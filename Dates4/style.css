@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* esto hace que el body tenga el alto de la ventana del navegador */
+    margin: 0; /* esto elimina los márgenes predeterminados */
+    background-color: lightpink;
+    overflow: hidden;
+}
+
+.parent {
+    align-self: center;
+    border: 1px outset;
+    border-radius:25px;
+    background-color:white;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center; 
+
+}
+    .child {
+        width: 100px;
+        height: 100px;
+        margin: auto;
+  }
+ 
+form{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 15px;
+    font-size: 20px;
+}
+    input{
+        height: 20;
+        border-radius: 7px;
+        border: 1px solid;
+}
+        #boton{
+            margin-top:30px;
+            width:100%;
+            height:25px;
+        }
+        #boton:hover{
+            opacity: 75%;
+            background-color: whitesmoke;
+        }
+
+.roto{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+}
+.ppp{
+    display:flex;
+    margin-top:30px;
+    
+}
+.hello{
+    border-radius: 5px;
+    background-color:white;
+    word-wrap: break-word;
+    padding:15px;
+    font-family: 'Times New Roman', Times, serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
